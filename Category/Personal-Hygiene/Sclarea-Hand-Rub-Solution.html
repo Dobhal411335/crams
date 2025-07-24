@@ -1,0 +1,1405 @@
+
+
+<!DOCTYPE html>
+
+<html>
+
+ 
+<head>
+<meta charset="UTF-8" />
+<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+<title>
+	Personal-Hygiene : CRAMSVLDJ RESEARCH
+</title>
+
+<meta name="keywords" content="HTML5/CSS3 Template" /><meta name="description" content="CRAMSVLDJ RESEARCH" /><meta name="author" content="CRAMSVLDJ RESEARCH" /><meta name="theme-color" content="#ffffff" />
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="../../assets/images/icons/favicon.png" />
+    <!-- Plugins bootstrap CSS File -->
+    <link rel="stylesheet" href="../../lib/bootstrap/bootstrap.min.css" /><link rel="stylesheet" href="../../lib/bootstrap/bootstrap-grid.min.css" />
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="../../assets/sass/style.css" /><link rel="stylesheet" href="../../assets/sass/skins/skin-2/skin-2.css" /><link rel="stylesheet" href="../../assets/sass/demos/demo-2/demo-2.css" /><link rel="stylesheet" href="../../assets/sass/base/header/header-2/header-2.css" /><link rel="stylesheet" href="../../assets/sass/base/footer/footer-2/footer-2.css" />
+    <!-- Plugins Slick CSS File -->
+    <link rel="stylesheet" href="../../lib/slick-carouse/slick.min.css" />
+    <!-- Plugins Animation CSS File -->
+    <link rel="stylesheet" href="../../assets/sass/base/animation/animation.css" />
+    <!-- Plugins Product CSS File -->
+    <link rel="stylesheet" href="../../assets/sass/base/product/component-product.css" />
+    <!-- Plugins Popup CSS File -->
+    <link rel="stylesheet" href="../../assets/sass/popup/popup.css" />
+    <!-- Plugins Sidebar CSS File -->
+    <link rel="stylesheet" href="../../assets/sass/sidebar/sidebar.css" />
+    <!-- Plugins FancyBox CSS File -->
+    <link rel="stylesheet" href="../../lib/fancybox/fancybox.css" /><link rel="stylesheet" href="../../assets/sass/demos/demo-1/demo-1.css" /><link rel="stylesheet" href="../../assets/sass/skins/skin-3/skin-3.css" /><link rel="stylesheet" href="../../assets/sass/demos/demo-3/demo-3.css" /><link href="../../assets/css/all.css" rel="stylesheet" />
+
+
+    <style>
+        .header-2 .header-bottom .logo-home
+        {
+            margin-right:20px;
+        }
+        body.skin-2 {
+            min-height: 600px;
+              font-family: Poppins,Arial,"sans-serif";
+              letter-spacing:normal;
+        }
+
+            body.skin-2, body.skin-2:hover {
+                overflow: hidden !important;
+                overflow-y: auto !important;
+            }
+
+        .header-2 .header-top .header-top-wrapper .content-left .link {
+            font-size: 15px;
+        }
+
+        .header__submenu li a, .header__submenu li a span {
+            color: #000000;
+        }
+
+        .skin-2, .skin-2 .desc, .skin-2 .link, .skin-2 label {
+            color: #000000;
+        }
+
+        .header-2 .header-bottom .menu-lv-1__action {
+            font-size: 13px !important;
+            color: #3368c6 !important;
+        }
+
+        .list-menu--disclosure-2 {
+            left: calc(-100% + 30px);
+            right: inherit;
+        }
+
+        .footer-2 {
+            background-color: #090909;
+            color: #fff;
+        }
+
+            .footer-2 .footer-block__heading, .skin-2 .footer-2 .link, .skin-2 .footer-2 label {
+                color: #fff;
+            }
+
+        .ulsignup a {
+            color: black;
+            text-transform: capitalize;
+        }
+
+        .live_help_group {
+            min-width: 330px;
+        }
+
+            .live_help_group.open {
+                right: 5px;
+            }
+
+        img.loader {
+            display: none;
+        }
+
+        .header-2 .header-bottom .megamenu_style_2 .site-nav {
+        }
+
+        .site-nav-banner .banner {
+            padding-bottom: 10px;
+        }
+
+        .image-adapt img {
+            -o-object-fit: unset;
+            object-fit: unset;
+        }
+
+        .product-card .product-card-top {
+            position: relative;
+            box-shadow: 0px 2px 5px #ededed;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        a.btn_head {
+            padding: 7px 21px;
+            font-size: 13px;
+            height: auto;
+            width: auto;
+            line-height: 17px;
+            min-width: 0px;
+            font-weight: normal;
+            background: #3368c6 !important;
+            color: #fff;
+            border: 0;
+        }
+
+            a.btn_head:hover {
+                background: #0d0d0d;
+            }
+            @media(max-width:700px)
+            {
+                .hidden-mobile
+                {
+                    display:none;
+                }
+            }
+    </style>
+
+    
+    <style>
+        .catitem {
+            width: 100%;
+        }
+
+            .catitem a {
+                text-transform: uppercase;
+                padding: 3px 10px;
+                font-size: 13px !important;
+            }
+
+                .catitem a.active {
+                    background: #f1f1f1;
+                }
+
+        .loader {
+            position: absolute;
+            width: 18px;
+            margin-left: 10px;
+            display: none;
+            top: 14px;
+        }
+
+
+
+        .dnone {
+            display: none !important;
+        }
+
+        .action_links {
+            margin-top: 10px;
+        }
+
+        a.addedcart {
+            background: #c09578 !important;
+            color: #fff !important;
+        }
+
+        .fa-rupee {
+            font-size: 14px;
+        }
+
+        .product_thumb {
+            position: relative;
+            margin-bottom: 14px;
+            max-height: 250px;
+            overflow: hidden;
+        }
+        .page-sidebar .sidebarBlock-content .nav li a.active
+        {
+color:blue;
+font-weight:bold;
+        }
+        .image-adapt img {
+           
+            -o-object-fit: unset;
+            object-fit: unset;
+        }
+    </style>
+</head>
+<body class="template-index skin-2">
+    <form method="post" action="https://www.cramsvldjresearch.com/Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution" id="form1">
+<div class="aspNetHidden">
+<input type="hidden" name="__VIEWSTATE" id="__VIEWSTATE" value="/wEPDwUKLTI5MTg5ODU3MA9kFgJmD2QWAgIDD2QWCgICDxYCHgtfIUl0ZW1Db3VudAIDFgZmD2QWAmYPFQIKQmx1ZS1UYW5zeQpCbHVlIFRhbnN5ZAIBD2QWAmYPFQIJUkFZLUNPVkVSCVJBWSBDT1ZFUmQCAg9kFgJmDxUCB1NjbGFyZWEHU2NsYXJlYWQCAw8WAh4EVGV4dAUBMGQCBA8WAh8AAgMWBmYPZBYEAgIPFQIQUGVyc29uYWwtSHlnaWVuZRBQZXJzb25hbCBIeWdpZW5lZAIDD2QWAgIBDxYCHwACARYCZg9kFgJmDxUDEFBlcnNvbmFsLUh5Z2llbmUZU2NsYXJlYS1IYW5kLVJ1Yi1Tb2x1dGlvbhlTY2xhcmVhIEhhbmQgUnViIFNvbHV0aW9uZAIBD2QWBAICDxUCEENvY29udXQtQ29zbWV0aWMQQ29jb251dCBDb3NtZXRpY2QCAw9kFgICAQ8WAh8AAgEWAmYPZBYCZg8VAxBDb2NvbnV0LUNvc21ldGljIU5hdHVyYWwtQ29jb251dC1Db3NtZXRpYy1Qcm9kdWN0cyFOYXR1cmFsIENvY29udXQgQ29zbWV0aWMgUHJvZHVjdHNkAgIPZBYEAgIPFQIIT25jb2xvZ3kIT25jb2xvZ3lkAgMPZBYCAgEPFgIfAAIBFgJmD2QWAmYPFQMIT25jb2xvZ3kaQ3JlYW0tZm9yLVJhZGlhdGlvbi1SZXBhaXIaQ3JlYW0gZm9yIFJhZGlhdGlvbiBSZXBhaXJkAgUPFgIfAAIDFgZmD2QWBAICDxUDEFBlcnNvbmFsIEh5Z2llbmUQUGVyc29uYWwtSHlnaWVuZRBQZXJzb25hbCBIeWdpZW5lZAIDDxYCHwACARYCZg9kFgJmDxUDEFBlcnNvbmFsLUh5Z2llbmUZU2NsYXJlYS1IYW5kLVJ1Yi1Tb2x1dGlvbhlTY2xhcmVhIEhhbmQgUnViIFNvbHV0aW9uZAIBD2QWBAICDxUDEENvY29udXQgQ29zbWV0aWMQQ29jb251dC1Db3NtZXRpYxBDb2NvbnV0IENvc21ldGljZAIDDxYCHwACARYCZg9kFgJmDxUDEENvY29udXQtQ29zbWV0aWMhTmF0dXJhbC1Db2NvbnV0LUNvc21ldGljLVByb2R1Y3RzIU5hdHVyYWwgQ29jb251dCBDb3NtZXRpYyBQcm9kdWN0c2QCAg9kFgQCAg8VAwhPbmNvbG9neQhPbmNvbG9neQhPbmNvbG9neWQCAw8WAh8AAgEWAmYPZBYCZg8VAwhPbmNvbG9neRpDcmVhbS1mb3ItUmFkaWF0aW9uLVJlcGFpchpDcmVhbSBmb3IgUmFkaWF0aW9uIFJlcGFpcmQCBg9kFgwCAg8WAh8BBRlTY2xhcmVhIEhhbmQgUnViIFNvbHV0aW9uZAIDDxYCHwACARYCZg9kFgJmDxUEBmFjdGl2ZRBQZXJzb25hbC1IeWdpZW5lGVNjbGFyZWEtSGFuZC1SdWItU29sdXRpb24ZU2NsYXJlYSBIYW5kIFJ1YiBTb2x1dGlvbmQCBA8WAh8BBQdydWIuanBnZAIFDw8WAh4ISW1hZ2VVcmwFDS9VcGxvYWRzL0NhdC9kZAIHDxYCHwACBBYIZg9kFgJmDxUREFBlcnNvbmFsLUh5Z2llbmUZU2NsYXJlYS1IYW5kLVJ1Yi1Tb2x1dGlvbgIxMytTY2xhcmVhwq4tR2VsLUJhc2VkLUhhbmQtUnViLVNvbHV0aW9uLTUwLU1MFjYzODM0ODMyNzEyMTExMzI0Mi5qcGcQUGVyc29uYWwtSHlnaWVuZRlTY2xhcmVhLUhhbmQtUnViLVNvbHV0aW9uAjEzK1NjbGFyZWHCri1HZWwtQmFzZWQtSGFuZC1SdWItU29sdXRpb24tNTAtTUwHU2NsYXJlYRBQZXJzb25hbC1IeWdpZW5lGVNjbGFyZWEtSGFuZC1SdWItU29sdXRpb24CMTMrU2NsYXJlYcKuLUdlbC1CYXNlZC1IYW5kLVJ1Yi1Tb2x1dGlvbi01MC1NTCtTY2xhcmVhwq4gR2VsIEJhc2VkIEhhbmQgUnViIFNvbHV0aW9uIDUwIE1MAjM1AjI1ZAIBD2QWAmYPFREQUGVyc29uYWwtSHlnaWVuZRlTY2xhcmVhLUhhbmQtUnViLVNvbHV0aW9uAjE0LFNjbGFyZWHCri1HZWwtQmFzZWQtSGFuZC1SdWItU29sdXRpb24tNTAwLU1MFjYzODM0ODMzODUxNTY1MDk2OS5qcGcQUGVyc29uYWwtSHlnaWVuZRlTY2xhcmVhLUhhbmQtUnViLVNvbHV0aW9uAjE0LFNjbGFyZWHCri1HZWwtQmFzZWQtSGFuZC1SdWItU29sdXRpb24tNTAwLU1MB1NjbGFyZWEQUGVyc29uYWwtSHlnaWVuZRlTY2xhcmVhLUhhbmQtUnViLVNvbHV0aW9uAjE0LFNjbGFyZWHCri1HZWwtQmFzZWQtSGFuZC1SdWItU29sdXRpb24tNTAwLU1MLFNjbGFyZWHCriBHZWwgQmFzZWQgSGFuZCBSdWIgU29sdXRpb24gNTAwIE1MAzI3NQMyNTBkAgIPZBYCZg8VERBQZXJzb25hbC1IeWdpZW5lGVNjbGFyZWEtSGFuZC1SdWItU29sdXRpb24CMTUyU2NsYXJlYcKuLUxpcXVpZFNwcmF5YWJsZS1IYW5kLVJ1Yi1Tb2x1dGlvbi01MDAtTUwWNjM4MzQ4MzQ2NzQ1ODU5MTEzLmpwZxBQZXJzb25hbC1IeWdpZW5lGVNjbGFyZWEtSGFuZC1SdWItU29sdXRpb24CMTUyU2NsYXJlYcKuLUxpcXVpZFNwcmF5YWJsZS1IYW5kLVJ1Yi1Tb2x1dGlvbi01MDAtTUwHU2NsYXJlYRBQZXJzb25hbC1IeWdpZW5lGVNjbGFyZWEtSGFuZC1SdWItU29sdXRpb24CMTUyU2NsYXJlYcKuLUxpcXVpZFNwcmF5YWJsZS1IYW5kLVJ1Yi1Tb2x1dGlvbi01MDAtTUwzU2NsYXJlYcKuIExpcXVpZC9TcHJheWFibGUgSGFuZCBSdWIgU29sdXRpb24gNTAwIE1MAAMyNTBkAgMPZBYCZg8VERBQZXJzb25hbC1IeWdpZW5lGVNjbGFyZWEtSGFuZC1SdWItU29sdXRpb24CMTYwU2NsYXJlYcKuLUxpcXVpZFNwcmF5YWJsZS1IYW5kLVJ1Yi1Tb2x1dGlvbi01THRyFjYzODM0ODM1MjMwOTU3ODA0OC5qcGcQUGVyc29uYWwtSHlnaWVuZRlTY2xhcmVhLUhhbmQtUnViLVNvbHV0aW9uAjE2MFNjbGFyZWHCri1MaXF1aWRTcHJheWFibGUtSGFuZC1SdWItU29sdXRpb24tNUx0cgdTY2xhcmVhEFBlcnNvbmFsLUh5Z2llbmUZU2NsYXJlYS1IYW5kLVJ1Yi1Tb2x1dGlvbgIxNjBTY2xhcmVhwq4tTGlxdWlkU3ByYXlhYmxlLUhhbmQtUnViLVNvbHV0aW9uLTVMdHIxU2NsYXJlYcKuIExpcXVpZC9TcHJheWFibGUgSGFuZCBSdWIgU29sdXRpb24gNUx0cgAGMTAsMDAwZAIIDxYCHwEFATRkZFeDEkiygmWYa9I9Qm0fUxx3XATH" />
+</div>
+
+<div class="aspNetHidden">
+
+	<input type="hidden" name="__VIEWSTATEGENERATOR" id="__VIEWSTATEGENERATOR" value="AA98EE0D" />
+	<input type="hidden" name="__EVENTVALIDATION" id="__EVENTVALIDATION" value="/wEdAAkYMK0T680W2J5FTIzmRm/YkpxZBo0Af9xlcy8JZqUrp1IJKoECsGGGZFlHF7eLrGTrNhZqJY019MM7kFfYZQ6u/yr5z8BF2JxPYWCP+FQwMXLv8zt+4SNYUmBH/k08ugc6JkEwWFFXQZ1vSOLIvzTawbbhz2k89bLrRdgI6U40fybYb7zHyiIMwK6OZrOt+VT9oybiZyRS0jB1qy6k6rJSEuT1XQ==" />
+</div>
+
+
+        <div class="page-wrapper">
+
+            <div class="announcement-bar">
+                <div class="container container-1170">
+                    <div class="announcement-bar__message text-center uppercase">
+                        <div class="message">
+                            <span style="float: left;">        <span class="icon">
+                                                            <svg style="position: relative; top: 0px; width: 20px; height: 20px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="comment-alt-dots" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-comment-alt-dots fa-w-16 fa-7x">
+                                                            <path fill="currentColor" d="M448 0H64C28.7 0 0 28.7 0 64v288c0 35.3 28.7 64 64 64h96v84c0 9.8 11.2 15.5 19.1 9.7L304 416h144c35.3 0 64-28.7 64-64V64c0-35.3-28.7-64-64-64zM128 240c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32zm128 0c-17.7 0-32-14.3-32-32s14.3-32 32-32 32 14.3 32 32-14.3 32-32 32z" class="" style="color: #00cc41;"></path></svg>     
+                                                    </span> Text Or Call: <a href="../../tel_%20%20%2b919690112288%e2%80%8b.html"> +91 9690112288</a> Or     <a style="display:inline-block">   <svg style="width: 20px; height: 20px" aria-hidden="true" focusable="false" data-prefix="fas" data-icon="envelope" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svg-inline--fa fa-envelope fa-w-16 fa-7x">
+
+                                                            <path fill="currentColor" d="M502.3 190.8c3.9-3.1 9.7-.2 9.7 4.7V400c0 26.5-21.5 48-48 48H48c-26.5 0-48-21.5-48-48V195.6c0-5 5.7-7.8 9.7-4.7 22.4 17.4 52.1 39.5 154.1 113.6 21.1 15.4 56.7 47.8 92.2 47.6 35.7.3 72-32.8 92.3-47.6 102-74.1 131.6-96.3 154-113.7zM256 320c23.2.4 56.6-29.2 73.4-41.4 132.7-96.3 142.8-104.7 173.4-128.7 5.8-4.5 9.2-11.5 9.2-18.9v-19c0-26.5-21.5-48-48-48H48C21.5 64 0 85.5 0 112v19c0 7.4 3.4 14.3 9.2 18.9 30.6 23.9 40.7 32.4 173.4 128.7 16.8 12.2 50.2 41.8 73.4 41.4z" class="" style="color: Black;"></path></svg>    Email: cramsvldjresearch@gmail.com</a>
+                            </span>
+
+                            
+
+                            <div id="ulLogin" class="ulsignup hidden-mobile" style="float: right; margin-left: 3%;">
+                                <a href="https://form.jotform.com/cramsvldjr/our-consultancy-services" class="btn_head">Contact With Us</a>
+                                                <a href="https://www.cramsvldjresearch.com/about-us/index.html" class="btn_head hidden-mobile">About Us</a>
+                                                <a href="https://www.cramsvldjresearch.com/Our-Policy/Privacy-Policy.html" class="btn_head hidden-mobile">Our Privacy Policy</a>
+                            </div>
+
+ 
+
+                            <div class="clearfix"></div>
+                        </div>
+
+                    </div>
+                </div>
+            </div>
+            <!-- END: Announcement Bar -->
+
+
+
+            <header class="header header-2 animate" data-header-sticky="">
+                <div class="header-top">
+                    <div class="container container-1920">
+                        <div class="header-top-wrapper">
+                            <div class="content-left">
+                                <span style="color: #fff; background-color: #06bfe2; display: inline-block; position: absolute; height: auto; font-size: 10px; line-height: 13px; border-radius: 0 5px 5px 0; padding: 0 4px; top: 1px;">Featured Brands</span>
+                                <ul class="header__list list-unstyled disable-srollbar">
+
+                                    
+
+
+                                            <li class="item">
+                                                <a href="../../Category/Coconut-Cosmetic.html" class="link uppercase">
+                                                    <span class="text">Blue Tansy</span>
+                                                </a>
+                                            </li>
+                                            <li class="separation"></li>
+                                        
+
+
+                                            <li class="item">
+                                                <a href="../../Category/Oncology/Cream-for-Radiation-Repair/17/Ray-Cover-Cream.html" class="link uppercase">
+                                                    <span class="text">RAY COVER</span>
+                                                </a>
+                                            </li>
+                                            <li class="separation"></li>
+                                        
+
+
+                                            <li class="item">
+                                                <a href="../../Category/Personal-Hygiene.html" class="link uppercase">
+                                                    <span class="text">Sclarea</span>
+                                                </a>
+                                            </li>
+                                            <li class="separation"></li>
+                                        
+
+
+                                </ul>
+                            </div>
+                            <div class="content-right">
+
+                               
+
+                                
+             
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Header MENUE Top -->
+                <div class="header-bottom">
+                    <div class="main-menu">
+                        <div class="container container-1920">
+                            <div class="header-bottom--wrapper">
+                                <nav class="header__inline-menu">
+                                    <h1 class="logo-home">
+                                        <a href="index.html" class="img-box" style="width: 160px;">
+                                            <img style="width: 100%; min-width: 160px;" src="../../wp-contentA/uploads/2020/01/logo.png" alt="CRAMSVLDJ RESEARCH"> 
+                                        </a>
+                                    </h1>
+                                    <ul class="list-menu list-menu--inline text-left">
+
+
+                                    <li class="menu-lv-item menu-lv-1 text-left no-megamenu">
+                                            <a class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link" href="../../index.html"> Home </a>
+                                        </li>
+
+
+                                        <li class="menu-lv-item menu-lv-1 text-left no-megamenu">
+                                            <a class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link" href="../../Shop.html"> 
+ Product Catalogue </a>
+                                        </li>
+                                        
+
+                                                <li class="menu-lv-item menu-lv-1 text-left has-megamenu dropdown block_layout--custom_width">
+                                                    <input type="hidden" name="ctl00$rptMenu$ctl00$HdMenu" id="rptMenu_HdMenu_0" value="Personal Hygiene" />
+                                                    <a href=#" class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link">
+                                                        <span class="text header__active-menu-item">Personal Hygiene</span>
+                                                    </a>
+                                                    <div id="rptMenu_PanelSubMenu_0" class="menu-dropdown custom-scrollbar megamenu_style_2">
+	
+
+
+                                                        <div class="container container-1640">
+                                                            <div class="menu-dropdown__wrapper" style="    padding-left: 50px;">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-lg-12">
+                                                                        <div class="row">
+                                                                            
+                                                                                    <div class="halo-row-item site-nav dropdown col-12 col-lg-3">
+                                                                                        <div class="site-nav-list">
+
+                                                                                            <a class="site-nav-title uppercase" href="../../Category/Personal-Hygiene.html">
+                                                                                                <span class="text">Sclarea Hand Rub Solution</span>
+                                                                                            </a>
+                                                                                            <div style="padding: 5px;"></div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                
+                                                                        </div>
+                                                                    </div>
+                                                                    
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                 </div>
+                                             </li>
+
+
+
+
+
+
+
+
+
+                                            
+
+                                                <li class="menu-lv-item menu-lv-1 text-left has-megamenu dropdown block_layout--custom_width">
+                                                    <input type="hidden" name="ctl00$rptMenu$ctl01$HdMenu" id="rptMenu_HdMenu_1" value="Coconut Cosmetic" />
+                                                    <a href="../../Category/Coconut-Cosmetic.html" class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link">
+                                                        <span class="text header__active-menu-item">Coconut Cosmetic</span>
+                                                    </a>
+                                                    <div id="rptMenu_PanelSubMenu_1" class="menu-dropdown custom-scrollbar megamenu_style_2">
+	
+
+
+                                                        <div class="container container-1640">
+                                                            <div class="menu-dropdown__wrapper" style="    padding-left: 50px;">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-lg-12">
+                                                                        <div class="row">
+                                                                            
+                                                                                    <div class="halo-row-item site-nav dropdown col-12 col-lg-3">
+                                                                                        <div class="site-nav-list">
+
+                                                                                            <a class="site-nav-title uppercase" href="../../Category/Coconut-Cosmetic.html">
+                                                                                                <span class="text">Natural Coconut Cosmetic Products</span>
+                                                                                            </a>
+                                                                                            <div style="padding: 5px;"></div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                
+                                                                        </div>
+                                                                    </div>
+                                                                    
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                   </div>
+                                               </li>
+
+
+
+
+
+
+
+
+
+                                            
+
+                                                <li class="menu-lv-item menu-lv-1 text-left has-megamenu dropdown block_layout--custom_width">
+                                                    <input type="hidden" name="ctl00$rptMenu$ctl02$HdMenu" id="rptMenu_HdMenu_2" value="Oncology" />
+                                                    <a href="../../Category/Oncology.html" class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link">
+                                                        <span class="text header__active-menu-item">Oncology</span>
+                                                    </a>
+                                                    <div id="rptMenu_PanelSubMenu_2" class="menu-dropdown custom-scrollbar megamenu_style_2">
+	
+
+
+                                                        <div class="container container-1640">
+                                                            <div class="menu-dropdown__wrapper" style="    padding-left: 50px;">
+                                                                <div class="row">
+                                                                    <div class="col-12 col-lg-12">
+                                                                        <div class="row">
+                                                                            
+                                                                                    <div class="halo-row-item site-nav dropdown col-12 col-lg-3">
+                                                                                        <div class="site-nav-list">
+
+                                                                                            <a class="site-nav-title uppercase" href="../../Category/Oncology.html">
+                                                                                                <span class="text">Cream for Radiation Repair</span>
+                                                                                            </a>
+                                                                                            <div style="padding: 5px;"></div>
+                                                                                        </div>
+                                                                                    </div>
+
+                                                                                
+                                                                        </div>
+                                                                    </div>
+                                                                    
+
+
+                                                                </div>
+                                                            </div>
+                                                        </div>
+                                                    
+                                                    </div>
+                                                </li>
+
+
+<li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                            <a href="#" class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link">
+                                                <span class="text header__active-menu-item"> CRAMSVLDJ RESEARCH </span>
+                                                        </a>
+                                            <ul class="header__submenu list-menu list-menu--disclosure list-menu--disclosure-1 caption-large motion-reduce" style="right: 0;">
+
+
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../about-us/index.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text"> CRAMSVLDJ RESEARCH  </span>
+                                                    </a>
+                                                </li>
+ 
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../Certificate-And-Awards/index.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">Certificate-And-Awards</span>
+                                                    </a>
+                                                </li>
+
+                                               <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../Vision-or-Mission/index.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">Our Vision or Mission</span>
+                                                    </a>
+                                                </li>
+
+                                                    </ul>
+                                                </li>
+
+
+
+
+
+<li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                            <a href="#" class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link">
+                                                <span class="text header__active-menu-item">Our Policy </span>
+                                                        </a>
+                                            <ul class="header__submenu list-menu list-menu--disclosure list-menu--disclosure-1 caption-large motion-reduce" style="right: 0;">
+
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../Our-Policy/Privacy-Policy.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                                    <span class="text">Privacy Policy</span>
+                                                    </a>
+                                                </li>
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../Our-Policy/Refund-And-Cancellations.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                                   <span class="text">Refund & Cancellations</span>
+                                                    </a>
+                                                </li>
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../Our-Policy/Shipping-Policy.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">Shipping Policy</span>
+                                                    </a>
+                                                </li>
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../Our-Policy/Terms-and-Condition.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                      <span class="text">Terms & Condition</span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+
+
+
+
+<li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                            <a href="#" class="menu-lv-1__action header__menu-item list-menu__item link focus-inset menu_mobile_link">
+                                                <span class="text header__active-menu-item">Contact With Us </span>
+                                                        </a>
+                                            <ul class="header__submenu list-menu list-menu--disclosure list-menu--disclosure-1 caption-large motion-reduce" style="right: 0;">
+
+
+ 
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="#" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">News & Update</span>
+                                                    </a>
+                                                </li>
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="../../contact-us/index.html" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">Contact us </span>
+                                                    </a>
+                                                </li>
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="#" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">Make Review </span>
+                                                    </a>
+                                                </li>
+
+
+
+                                                <li class="menu-lv-item menu-lv-2 text-center  ">
+                                                    <a href="#" target="_blank" class="menu-lv-2__action header__menu-item list-menu__item link link link-underline">
+                                                        <span class="text">On Google</span>
+                                                    </a>
+                                                </li>
+
+                                            </ul>
+                                        </li>
+
+                                            
+
+ 
+
+                                     </ul>
+
+
+                                </nav>
+
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Header Bottom -->
+
+
+                <div class="header-mobile">
+                    <div class="header-mobile--top">
+                    </div>
+                    <div class="container">
+                        <div class="header-mobile--wrapper">
+                            <div class="header-mobile--item header-mobile--left" style="min-width: 80%;">
+                                <div class="header-mobile--icon item__mobile--hamburger">
+                                    <a class="mobileMenu-toggle" href="javascript:void(0)" data-mobile-menu="" aria-label="menu">
+                                        <span class="mobileMenu-toggle__Icon"></span>
+                                    </a>
+                                </div>
+                                <div class="header-mobile--item header-mobile--center">
+                                    <div class="header-mobile--icon item-mobile-logo">
+                                        <a href="../../index.html" class="img-box" style="width: 160px;">
+                                            <img style="width: 100%; min-width: 160px;" src="../../wp-contentA/uploads/2020/01/logo.png" alt="Logo">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="header-mobile--item header-mobile--right">
+
+                                <div class="header-mobile--icon">
+ 
+                                    <a class="header__link--account link-underline" id="customer_login_link" href="tel:9690112288">
+                                        <i class="fa fa-phone"></i>  Call 
+                                    </a>
+                                </div>
+                                <div class="header-mobile--icon header__iconItem">
+                      
+                                </div>
+                            </div> 
+                        </div>
+                    </div>
+                </div>
+                <!-- END: Header Mobile -->
+            </header>
+
+
+
+
+
+
+            <div class="halo-sidebar halo-sidebar-left halo-sidebar_menu" data-menu-sidebar id="halo-menu-sidebar">
+                <div class="halo-sidebar-header text-left">
+                     <a href="../../index.html" class="img-box" style="width: 160px;">
+                                            <img style="width: 50%; min-width: 80px;" src="../../wp-contentA/uploads/2020/01/logo.png" alt="Logo">
+                                        </a>
+                    <a href="#" class="halo-sidebar-close" data-close-menu-sidebar="">
+                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48">
+                            <path d="M 38.982422 6.9707031 A 2.0002 2.0002 0 0 0 37.585938 7.5859375 L 24 21.171875 L 10.414062 7.5859375 A 2.0002 2.0002 0 0 0 8.9785156 6.9804688 A 2.0002 2.0002 0 0 0 7.5859375 10.414062 L 21.171875 24 L 7.5859375 37.585938 A 2.0002 2.0002 0 1 0 10.414062 40.414062 L 24 26.828125 L 37.585938 40.414062 A 2.0002 2.0002 0 1 0 40.414062 37.585938 L 26.828125 24 L 40.414062 10.414062 A 2.0002 2.0002 0 0 0 38.982422 6.9707031 z"></path>
+                        </svg>
+                    </a>
+                </div>
+                <div class="halo-sidebar-wrapper custom-scrollbar">
+                    <div class="site-nav-mobile nav" data-navigation-mobile>
+                        <ul class="list-menu list-menu--inline list-unstyled" id="MenuMobileListSection-menu" data-heading="Menu">
+                            
+
+
+                                    <li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                        <input type="hidden" name="ctl00$rptMenu2$ctl00$HdMenu" id="rptMenu2_HdMenu_0" value="Personal Hygiene" />
+                                        <a href="#" class="menu-lv-1__action list-menu__item menu_mobile_link link focus-inset  menu-lv__flex">
+                                            <span class="custom-icon style-circle">
+                                       <img src="../../wp-contentA/uploads/2020/01/logo.png" />
+                                            </span>
+                                            <span class="text">Personal Hygiene</span>
+                                            <span class="icon-dropdown" data-toggle-menu-mb>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret">
+                                                    <path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                        <div class="menu-lv__dropdownmenu menu-dropdown">
+                                            <ul class="menu-lv__list list-menu list-unstyled motion-reduce">
+                                                <li class="menu-lv-item menu-lv-2 nav-title-mobile text-center">
+                                                    <span class="icon-dropdown">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="long-arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon-arrow-nav">
+                                                            <path fill="currentColor" d="M136.97 380.485l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L60.113 273H436c6.627 0 12-5.373 12-12v-10c0-6.627-5.373-12-12-12H60.113l83.928-83.444c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0l-116.485 116c-4.686 4.686-4.686 12.284 0 16.971l116.485 116c4.686 4.686 12.284 4.686 16.97-.001z" class=""></path></svg>
+                                                    </span>
+                                                    <span class="menu-lv-2__action link focus-inset"><a   href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution.html">
+                                                        <span class="text">Personal Hygiene</span></a>
+                                                    </span>
+                                                </li>
+
+
+                                                
+                                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                                            <a href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                                <span class="text">Sclarea Hand Rub Solution</span>
+                                                            </a>
+                                                        </li>
+
+
+
+                                                    
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                
+
+
+                                    <li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                        <input type="hidden" name="ctl00$rptMenu2$ctl01$HdMenu" id="rptMenu2_HdMenu_1" value="Coconut Cosmetic" />
+                                        <a href="#" class="menu-lv-1__action list-menu__item menu_mobile_link link focus-inset  menu-lv__flex">
+                                            <span class="custom-icon style-circle">
+                                       <img src="../../wp-contentA/uploads/2020/01/logo.png" />
+                                            </span>
+                                            <span class="text">Coconut Cosmetic</span>
+                                            <span class="icon-dropdown" data-toggle-menu-mb>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret">
+                                                    <path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                        <div class="menu-lv__dropdownmenu menu-dropdown">
+                                            <ul class="menu-lv__list list-menu list-unstyled motion-reduce">
+                                                <li class="menu-lv-item menu-lv-2 nav-title-mobile text-center">
+                                                    <span class="icon-dropdown">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="long-arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon-arrow-nav">
+                                                            <path fill="currentColor" d="M136.97 380.485l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L60.113 273H436c6.627 0 12-5.373 12-12v-10c0-6.627-5.373-12-12-12H60.113l83.928-83.444c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0l-116.485 116c-4.686 4.686-4.686 12.284 0 16.971l116.485 116c4.686 4.686 12.284 4.686 16.97-.001z" class=""></path></svg>
+                                                    </span>
+                                                    <span class="menu-lv-2__action link focus-inset"><a   href="../../Category/Coconut-Cosmetic/Natural-Coconut-Cosmetic-Products.html">
+                                                        <span class="text">Coconut Cosmetic</span></a>
+                                                    </span>
+                                                </li>
+
+
+                                                
+                                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                                            <a href="../../Category/Coconut-Cosmetic/Natural-Coconut-Cosmetic-Products.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                                <span class="text">Natural Coconut Cosmetic Products</span>
+                                                            </a>
+                                                        </li>
+
+
+
+                                                    
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                
+
+
+                                    <li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                        <input type="hidden" name="ctl00$rptMenu2$ctl02$HdMenu" id="rptMenu2_HdMenu_2" value="Oncology" />
+                                        <a href="#" class="menu-lv-1__action list-menu__item menu_mobile_link link focus-inset  menu-lv__flex">
+                                            <span class="custom-icon style-circle">
+                                       <img src="../../wp-contentA/uploads/2020/01/logo.png" />
+                                            </span>
+                                            <span class="text">Oncology</span>
+                                            <span class="icon-dropdown" data-toggle-menu-mb>
+                                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret">
+                                                    <path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path>
+                                                </svg>
+                                            </span>
+                                        </a>
+                                        <div class="menu-lv__dropdownmenu menu-dropdown">
+                                            <ul class="menu-lv__list list-menu list-unstyled motion-reduce">
+                                                <li class="menu-lv-item menu-lv-2 nav-title-mobile text-center">
+                                                    <span class="icon-dropdown">
+                                                        <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="long-arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon-arrow-nav">
+                                                            <path fill="currentColor" d="M136.97 380.485l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L60.113 273H436c6.627 0 12-5.373 12-12v-10c0-6.627-5.373-12-12-12H60.113l83.928-83.444c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0l-116.485 116c-4.686 4.686-4.686 12.284 0 16.971l116.485 116c4.686 4.686 12.284 4.686 16.97-.001z" class=""></path></svg>
+                                                    </span>
+                                                    <span class="menu-lv-2__action link focus-inset"><a   href="../../Category/Oncology/Cream-for-Radiation-Repair.html">
+                                                        <span class="text">Oncology</span></a>
+                                                    </span>
+                                                </li>
+
+
+                                                
+                                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                                            <a href="../../Category/Oncology/Cream-for-Radiation-Repair.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                                <span class="text">Cream for Radiation Repair</span>
+                                                            </a>
+                                                        </li>
+
+
+
+                                                    
+
+
+                                            </ul>
+                                        </div>
+                                    </li>
+                                
+
+                            <li class="menu-lv-item menu-lv-1 text-left no-megamenu dropdown">
+                                <a href="../../index.html" class="menu-lv-1__action list-menu__item menu_mobile_link link focus-inset  menu-lv__flex">
+                                    <span class="custom-icon style-circle">
+                                        <img src="../../wp-contentA/uploads/2020/01/logo.png" />
+                                    </span>
+                                    <span class="text">Behind The Scene</span>
+                                    <span class="icon-dropdown" data-toggle-menu-mb>
+                                        <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" aria-hidden="true" focusable="false" role="presentation" class="icon icon-caret">
+                                            <path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path>
+                                        </svg>
+                                    </span>
+                                </a>
+                                <div class="menu-lv__dropdownmenu menu-dropdown">
+                                    <ul class="menu-lv__list list-menu list-unstyled motion-reduce">
+                                        <li class="menu-lv-item menu-lv-2 nav-title-mobile text-center">
+                                            <span class="icon-dropdown">
+                                                <svg aria-hidden="true" focusable="false" data-prefix="fal" data-icon="long-arrow-left" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 448 512" class="icon-arrow-nav">
+                                                    <path fill="currentColor" d="M136.97 380.485l7.071-7.07c4.686-4.686 4.686-12.284 0-16.971L60.113 273H436c6.627 0 12-5.373 12-12v-10c0-6.627-5.373-12-12-12H60.113l83.928-83.444c4.686-4.686 4.686-12.284 0-16.971l-7.071-7.07c-4.686-4.686-12.284-4.686-16.97 0l-116.485 116c-4.686 4.686-4.686 12.284 0 16.971l116.485 116c4.686 4.686 12.284 4.686 16.97-.001z" class=""></path></svg>
+                                            </span>
+                                            <span class="menu-lv-2__action link focus-inset">
+                                                <span class="text">Behind The Scene</span>
+                                            </span>
+                                        </li>
+
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../about-us/index.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">About Us</span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+
+                                            <a href="../../Vision-or-Mission/index.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Vision or Mission </span>
+                                            </a>
+                                        </li>
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../Certificate-And-Awards/index.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Certificate-And-Awards</span>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../Our-Policy/Privacy-Policy.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Privacy Policy</span>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../Our-Policy/Refund-And-Cancellations.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Refund & Cancellations</span>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../Our-Policy/Shipping-Policy.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Shipping Policy</span>
+                                            </a>
+
+                                        </li>
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../Our-Policy/Terms-and-Condition.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Terms & Condition</span>
+                                            </a>
+
+                                        </li>
+
+
+
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="../../contact-us/index.html" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Contact us</span>
+                                            </a>
+
+                                        </li>
+
+                <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="#" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">News & Update</span>
+                                            </a>
+
+                                        </li>
+
+
+    
+                                       <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="#" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">Make Review</span>
+                                            </a>
+
+                                        </li>
+
+
+                                        <li class="menu-lv-item menu-lv-2 text-left nav-all-mobile">
+                                            <a href="#" class="menu-lv-2__action list-menu__item menu_mobile_link link focus-inset">
+                                                <span class="text">On Google</span>
+                                            </a>
+
+                                        </li>
+
+
+                                    </ul>
+                                </div>
+                            </li>
+                        </ul>
+                    </div>
+                </div>
+            </div>   
+
+
+
+    <main class="main">
+        <div class="collection-template collection-template-default">
+            <div class="container container-1170">
+                <div class="page-header">
+                    <nav class="breadcrumb text-left ">
+                        <a class="link-underline" href="../../index.html">
+                            <span class="text">Home</span>
+                        </a>
+                        <span class="separate" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path></svg></span>
+                        <a href="../Personal-Hygiene.html">Personal-Hygiene</a>
+                        <span class="separate" aria-hidden="true">
+                            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+                                <path d="M 7.75 1.34375 L 6.25 2.65625 L 14.65625 12 L 6.25 21.34375 L 7.75 22.65625 L 16.75 12.65625 L 17.34375 12 L 16.75 11.34375 Z"></path></svg></span>
+                        <span class="bread-text">
+                            Sclarea Hand Rub Solution</span>
+                    </nav>
+                </div>
+                <div class="halo-collection-content sidebar--layout_vertical">
+                    <div class="page-sidebar page-sidebar-left page-sidebar--vertical">
+                        <div class="halo-sidebar-header text-left">
+                            <span class="title">Sidebar</span>
+                            <a href="javascript:void(0)" class="halo-page-sidebar-close" data-close-sidebar="" role="button">
+                                <span class="visually-hidden">Close</span>
+                                <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 48 48" aria-hidden="true" focusable="false" role="presentation">
+                                    <path d="M 38.982422 6.9707031 A 2.0002 2.0002 0 0 0 37.585938 7.5859375 L 24 21.171875 L 10.414062 7.5859375 A 2.0002 2.0002 0 0 0 8.9785156 6.9804688 A 2.0002 2.0002 0 0 0 7.5859375 10.414062 L 21.171875 24 L 7.5859375 37.585938 A 2.0002 2.0002 0 1 0 10.414062 40.414062 L 24 26.828125 L 37.585938 40.414062 A 2.0002 2.0002 0 1 0 40.414062 37.585938 L 26.828125 24 L 40.414062 10.414062 A 2.0002 2.0002 0 0 0 38.982422 6.9707031 z"></path>
+                                </svg>
+                            </a>
+                        </div>
+                        <div class="halo-sidebar-wrapper custom-scrollbar">
+                            <div class="sidebarBlock categories">
+                                <div class="sidebarBlock-headingWrapper">
+                                    <h3 class="sidebarBlock-heading is-clicked">
+                                        <span>Categories</span>
+                                        <span class="icon">
+                                            <svg xmlns="http://www.w3.org/2000/svg" enable-background="new 0 0 551.13 551.13" height="512" viewBox="0 0 551.13 551.13" width="512">
+                                                <path d="m275.565 361.679-223.897-223.896h-51.668l275.565 275.565 275.565-275.565h-51.668z"></path></svg>
+                                        </span>
+                                    </h3>
+                                </div>
+                                <div class="sidebarBlock-content" style="display: block;">
+                                     <ul class="nav">
+                                    <li>
+                                        <a style="box-shadow: none; font-weight: bold; color: #444444; margin-bottom: 0; font-size: 14px; margin-top: -2px;"
+                                            href="../Personal-Hygiene.html"><i class="fa fa-angle-double-right"></i>Personal-Hygiene</a>
+                                    </li>
+                                    
+                                            <li class="sidebar-link-lv1 link-underline">
+
+                                                <a class="active" href="Sclarea-Hand-Rub-Solution.html"> <span class="text">Sclarea Hand Rub Solution</span></a>
+                                            </li>
+                                        
+
+                                </ul>
+
+                                    
+                                </div>
+                            </div>
+
+
+
+
+                           
+                            <div class="sidebarBlock sidebar-banner">
+                                <div class="sidebarBlock-content" style="display: block;">
+                                    <div class="img-box">
+                                        <a href="#" class="image animate-scale image-adapt" style="padding-top: 78.571428571%">
+                                            <img src="../../assets/images/banners/sidebar/new-arrivals.png" alt="Ella - HTML Template">
+                                        </a>
+                                    </div>
+                                    <div class="img-box">
+                                        <a href="#" class="image animate-scale image-adapt" style="padding-top: 160.476190476%">
+                                            <img src="../../assets/images/banners/sidebar/milancelos.png" alt="Ella - HTML Template">
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="page-content">
+                        <div class="collection-header">
+                            <div class="collection-image">
+                                <a href="#" class="image image-adapt" style="padding-top: 34.40860215%">
+                                        
+
+                                    <img src="../../assets/images/collection/rub.jpg" alt="Banner Collection">
+                                       
+                                     
+                                </a>
+                            </div>
+                            <p style="text-align: justify;">
+
+                                
+                            </p>
+
+                        </div>
+                        <div style="padding:10px;"></div>
+                        <div class="collection" id="CollectionProductGrid">
+                            <div class="product-collection row products-grid">
+                                
+                                
+                               
+                                    <div class="halo-row-item grid-item col-6 col-md-4">
+                                    <div class="product-card">
+                                        <div class="product-card-top">
+                                            <div class="product-card-media">
+                                                <a href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/13/Sclarea®-Gel-Based-Hand-Rub-Solution-50-ML.html" class="image">
+                                                    <img src="../../Uploads/Product/638348327121113242.jpg" alt="" >
+                                                  
+                                                </a>
+                                                <div class="card-product__group group-right">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="card-action">
+                                                    <div class="variants add_to_cart">
+                                                        <a class="button button-ATC text-center" href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/13/Sclarea®-Gel-Based-Hand-Rub-Solution-50-ML.html">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card-bottom">
+                                            <div class="product-card-information text-center">
+                                                <div class="card-vendor uppercase">
+                                                    <a href="#" title="" tabindex="0">Sclarea</a>
+                                                </div>
+                                                <a  href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/13/Sclarea®-Gel-Based-Hand-Rub-Solution-50-ML.html" class="card-title link-underline card-title-ellipsis">
+                                                    <span class="text"> Gel Based 50 ML</span>
+                                                </a>
+                
+                                              
+                                               
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+
+
+
+                                
+                                    <div class="halo-row-item grid-item col-6 col-md-4">
+                                    <div class="product-card">
+                                        <div class="product-card-top">
+                                            <div class="product-card-media">
+                                                <a href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/14/Sclarea®-Gel-Based-Hand-Rub-Solution-500-ML.html" class="image">
+                                                    <img src="../../Uploads/Product/638348338515650969.jpg" alt="" >
+                                                  
+                                                </a>
+                                                <div class="card-product__group group-right">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="card-action">
+                                                    <div class="variants add_to_cart">
+                                                        <a class="button button-ATC text-center" href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/14/Sclarea®-Gel-Based-Hand-Rub-Solution-500-ML.html">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card-bottom">
+                                            <div class="product-card-information text-center">
+                                                <div class="card-vendor uppercase">
+                                                    <a href="#" title="" tabindex="0">Sclarea</a>
+                                                </div>
+                                                <a  href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/14/Sclarea®-Gel-Based-Hand-Rub-Solution-500-ML.html" class="card-title link-underline card-title-ellipsis">
+                                                    <span class="text"> Gel Based 500 ML</span>
+                                                </a>
+                   
+                                               
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+
+
+
+                                
+                                    <div class="halo-row-item grid-item col-6 col-md-4">
+                                    <div class="product-card">
+                                        <div class="product-card-top">
+                                            <div class="product-card-media">
+                                                <a href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/15/Sclarea®-LiquidSprayable-Hand-Rub-Solution-500-ML.html" class="image">
+                                                    <img src="../../Uploads/Product/638348346745859113.jpg" alt="" > 
+                                                  
+                                                </a>
+                                                <div class="card-product__group group-right">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="card-action">
+                                                    <div class="variants add_to_cart">
+                                                        <a class="button button-ATC text-center" href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/15/Sclarea®-LiquidSprayable-Hand-Rub-Solution-500-ML.html">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card-bottom">
+                                            <div class="product-card-information text-center">
+                                                <div class="card-vendor uppercase">
+                                                    <a href="#" title="" tabindex="0">Sclarea</a>
+                                                </div>
+                                                <a  href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/15/Sclarea®-LiquidSprayable-Hand-Rub-Solution-500-ML.html" class="card-title link-underline card-title-ellipsis">
+                                                    <span class="text"> Liquid/Sprayable 500 ML</span>
+                                                </a>
+        
+                                               
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+
+
+
+                                
+                                    <div class="halo-row-item grid-item col-6 col-md-4">
+                                    <div class="product-card">
+                                        <div class="product-card-top">
+                                            <div class="product-card-media">
+                                                <a href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/16/Sclarea®-LiquidSprayable-Hand-Rub-Solution-5Ltr.html" class="image">
+                                                    <img src="../../Uploads/Product/638348352309578048.jpg" alt="" >
+                                                  
+                                                </a>
+                                                <div class="card-product__group group-right">
+                                                    
+                                                    
+                                                </div>
+                                                <div class="card-action">
+                                                    <div class="variants add_to_cart">
+                                                        <a class="button button-ATC text-center" href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/16/Sclarea®-LiquidSprayable-Hand-Rub-Solution-5Ltr.html">View Details</a>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div class="product-card-bottom">
+                                            <div class="product-card-information text-center">
+                                                <div class="card-vendor uppercase">
+                                                    <a href="#" title="" tabindex="0">Sclarea</a>
+                                                </div>
+                                                <a  href="../../Category/Personal-Hygiene/Sclarea-Hand-Rub-Solution/16/Sclarea®-LiquidSprayable-Hand-Rub-Solution-5Ltr.html" class="card-title link-underline card-title-ellipsis">
+                                                    <span class="text"> Liquid/Sprayable   5Ltr</span>
+                                                </a>
+                           
+                                               
+                                            </div>
+                                            
+                                            
+                                        </div>
+                                    </div>
+                                </div>
+                                    
+
+
+
+                                 
+                              
+                                
+                            </div>
+                            
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="clearfix"></div>
+            <!-- START:  Block Products -->
+            
+            <!-- END: Block Products -->
+        </div>
+    </main>
+
+    <!--breadcrumbs area start-->
+    
+    <!--breadcrumbs area end-->
+
+    <div class="shop_area" style="display: none">
+        <div class="container">
+            <div class="shop_inner_area">
+                <div class="row">
+                    <div class="col-lg-3 col-md-12">
+                        <!--sidebar widget start-->
+                        <div class="sidebar_widget">
+
+                            <div class="widget_list widget_categories">
+                                <h2>Product categories</h2>
+
+                               
+
+
+                            </div>
+
+
+
+
+
+                        </div>
+                        <!--sidebar widget end-->
+                    </div>
+                    <div class="col-lg-9 col-md-12">
+                        <!--shop wrapper start-->
+                        <div class="shop_toolbar_wrapper">
+                            <div class="shop_toolbar_btn">
+
+                                <button data-role="grid_3" type="button" class="active btn-grid-3" data-toggle="tooltip" title="3"></button>
+
+                                <button data-role="grid_4" type="button" class=" btn-grid-4" data-toggle="tooltip" title="4"></button>
+
+                                <button data-role="grid_5" type="button" class="btn-grid-5" data-toggle="tooltip" title="5"></button>
+
+
+                            </div>
+
+                            <div class="page_amount">
+                                <p>
+                                    Showing 4 of
+                                4
+                                    results
+                                </p>
+                            </div>
+                        </div>
+                        <!--shop toolbar end-->
+
+                        <div class="row shop_wrapper">
+                            
+
+                        </div>
+                        <!--shop toolbar start-->
+                        <div class="shop_toolbar t_bottom" style="display: none">
+                            <div class="pagination">
+                                <ul>
+                                    <li class="current">1</li>
+                                    <li><a href="#">2</a></li>
+                                    <li><a href="#">3</a></li>
+                                    <li class="next"><a href="#">next</a></li>
+                                    <li><a href="#">>></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <!--shop toolbar end-->
+                        <!--shop wrapper end-->
+                    </div>
+
+                </div>
+            </div>
+
+        </div>
+    </div>
+
+
+
+  
+    <script>
+        function CallHandler(Pid, anc) {
+            // if (Page_ClientValidate("vcart")) {
+            $(anc).find(".loader").show();
+            var M = 0;//$(anc).parent().find(".for_M").val();
+            var V = 0; //$(anc).parent().find(".for_V").val();
+            var Q = 1;
+
+            $.ajax({
+                url: "/Handler/Cookies.ashx?M=" + M + "&V=" + V + "&P=" + Pid + "&Q=" + Q,
+                contentType: "application/json; charset=utf-8",
+                success: function (d) {
+
+                    $(".cart_quantity").html(d);
+                    //  $(parent.document).find("#cart-total").html(d + " item(s)");
+
+                    $(".loader").hide();
+                    $(anc).html("Go to Cart");
+
+                    $(anc).removeAttr("onclick");
+                    $(anc).attr("href", "/cart");
+                    $(anc).addClass("addedcart");
+                },
+                error: function () {
+
+                }
+            });
+            // }
+            return false;
+        }
+
+        function hidemodal() {
+            $(parent.document).find(".btn.popup-close").click();
+        }
+
+        function CallHandler2(Pid, anc) {
+            // if (Page_ClientValidate("vcart")) {
+            $(anc).find(".loader").show();
+            var M = 0;//$(anc).parent().find(".for_M").val();
+            var V = 0; //$(anc).parent().find(".for_V").val();
+            var Q = 1;
+
+            $.ajax({
+                url: "/Handler/Cookies.ashx?M=" + M + "&V=" + V + "&P=" + Pid + "&Q=" + Q,
+                contentType: "application/json; charset=utf-8",
+                success: function (d) {
+
+                    $(".cart_quantity").html(d);
+                    //  $(parent.document).find("#cart-total").html(d + " item(s)");
+
+                    $(".loader").hide();
+
+                    window.location.href = '../../Checkout.html';
+
+
+
+                },
+                error: function () {
+
+                }
+            });
+            // }
+            return false;
+        }
+    </script>
+
+ 
+ 
+ 
+
+                <div  style="background-color: #3368c6 !important;">
+                            <div style="color: white; text-align: center;">  
+                 <small >
+Copyright © 2024 All Right Reserved Cramsvldj Research</small><br>
+                            </div>
+ 
+                </div>
+
+
+ 
+ 
+
+
+        <!-- END: Card Sidebar -->
+
+        <!-- Plugins Jquery JS File -->
+        <script src="../../lib/jquery/jquery.min.js"></script>
+
+        <!-- Plugins bootstrap JS File -->
+        <script src="../../lib/bootstrap/bootstrap.bundle.min.js"></script>
+        <script src="../../lib/bootstrap/popper.min.js"></script>
+        <!-- Plugins Slick Carouse JS File -->
+        <script src="../../lib/slick-carouse/slick.min.js"></script>
+        <!-- Plugins fancybox JS File -->
+        <script src="../../lib/fancybox/fancybox.umd.js"></script>
+        <!-- Plugins elevateZoom JS File -->
+        <script src="../../lib/jquery.elevateZoom/jquery.elevateZoom.min.js"></script>
+
+        <!-- Main JS File -->
+        <script src="../../assets/js/theme.min4e96.js?ref=11"></script>
+
+
+
+
+
+        
+        
+
+
+    </form>
+
+
+
+
+
+<!-- GetButton.io widget -->
+<script type="text/javascript">
+    (function () {
+        var options = {
+            call: "+919690112288", // Call phone number
+            whatsapp: "+919690112288", // WhatsApp number
+            call_to_action: "CRAMSVLDJ RESEARCH ", // Call to action
+            button_color: "#FF6550", // Color of button
+            position: "left", // Position may be 'right' or 'left'
+            order: "call,whatsapp", // Order of buttons
+            pre_filled_message: "Chat With Us", // WhatsApp pre-filled message
+        };
+        var proto = 'Sclarea-Hand-Rub-Solution.html', host = "getbutton.io", url = proto + '//static.' + host;
+        var s = document.createElement('script'); s.type = 'text/javascript'; s.async = true; s.src = url + '/widget-send-button/js/init.js';
+        s.onload = function () { WhWidgetSendButton.init(host, proto, options); };
+        var x = document.getElementsByTagName('script')[0]; x.parentNode.insertBefore(s, x);
+    })();
+</script>
+<!-- /GetButton.io widget -->
+
+
+
+
+</body>
+
+ 
+</html>
